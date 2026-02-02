@@ -23,7 +23,6 @@ redirect_from:
 
 ## Experience
 * Georgia State University (Research Assistant)
-  * 2025 Summer Dr. Elaine Meichen Liu
   * 2023-Present Dr. Lauren Hoehn-Velasco
   * 2022-2023 Dr. Micheal Pesko  
 * University of Texas at Austin (Research Assistant)
@@ -32,9 +31,5 @@ redirect_from:
 * <a href="https://www.iii.org.tw/en" target="_blank">Institute of Information Industry</a>, Taiwan, 2020-2021
 
 
----
-  
-## Presentations
-* APPAM (Association for Public Policy Analysis & Management), Seattle, WA, 2025
-* ASHEcon (American Society of Health Economists), Nashville, TN, 2025
+ 
 
