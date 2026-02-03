@@ -63,3 +63,23 @@ body,
 h1, h2, h3 {
   color: #004080 !important;
 }
+
+/* Research page: image + text layout */
+.paper-block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.paper-block img {
+  width: 160px;
+  height: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .paper-block {
+    flex-direction: column;
+  }
+}
