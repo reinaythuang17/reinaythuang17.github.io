@@ -65,9 +65,10 @@ h1, h2, h3 {
 }
 
 .paper-visual {
-   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin: 2em 0;
 }
 
 .paper-visual img {
