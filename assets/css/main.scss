@@ -64,20 +64,21 @@ h1, h2, h3 {
   color: #004080 !important;
 }
 
-.paper-side {
+.paper-visual {
   display: flex;
-  gap: 24px;
-  align-items: flex-start;   /* 關鍵：頂部對齊 */
+  gap: 28px;
+  align-items: flex-start;
   margin: 2em 0;
 }
 
-.paper-side img {
-  width: 280px;              /* 左邊圖大小 */
+.paper-visual img {
+  width: 300px;        /* 圖比較大，像你示例 */
+  max-width: 100%;
   height: auto;
 }
 
 .paper-text {
-  max-width: 520px;
+  max-width: 520px;    /* 右邊文字不要太寬，像論文摘要 */
   line-height: 1.6;
 }
 
