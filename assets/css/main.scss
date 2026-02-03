@@ -78,13 +78,11 @@ h1, h2, h3 {
 }
 
 .paper-text {
-  max-width: 520px;    /* 右邊文字不要太寬，像論文摘要 */
-  line-height: 1.6;
+   width: 50%;
 }
 
 .paper-text p {
-  margin-top: 0;
-  margin-bottom: 0.9em;
+  width: 50%; 
 }
 
 .update-note {
