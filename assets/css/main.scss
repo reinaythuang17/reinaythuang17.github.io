@@ -64,22 +64,30 @@ h1, h2, h3 {
   color: #004080 !important;
 }
 
-/* Research page: image + text layout */
-.paper-block {
+.paper-visual {
   display: flex;
-  gap: 20px;
+  gap: 28px;
   align-items: flex-start;
-  margin-bottom: 1.5em;
+  margin: 2em 0;
 }
 
-.paper-block img {
-  width: 160px;
+.paper-visual img {
+  width: 300px;        /* 圖比較大，像你示例 */
+  max-width: 100%;
   height: auto;
-  border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .paper-block {
-    flex-direction: column;
-  }
+.paper-text {
+  max-width: 520px;    /* 右邊文字不要太寬，像論文摘要 */
+  line-height: 1.6;
+}
+
+.paper-text p {
+  margin-top: 0;
+  margin-bottom: 0.9em;
+}
+
+.update-note {
+  font-size: 0.9em;
+  color: #666;
 }
