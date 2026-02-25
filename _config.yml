@@ -123,9 +123,6 @@ atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
-minimal_mistakes_skin: "default"
-dark_mode: false
-
 
 # SEO Related
 google_site_verification :
