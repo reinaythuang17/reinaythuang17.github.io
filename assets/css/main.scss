@@ -87,3 +87,10 @@ h1, h2, h3 {
   font-size: 0.9em;
   color: #666;
 }
+
+/* 隱藏切換主題按鈕 */
+.theme-toggle,
+.theme-toggle *,
+button[data-action="toggle-theme"] {
+  display: none !important;
+}
