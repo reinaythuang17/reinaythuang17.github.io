@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# View my <a href="/files/CV_Yu-Ting_2026v1_pub.pdf" target="_blank">CV</a>
+# View my <a href="/files/CV_Yu-Ting_March2026_pub.pdf" target="_blank">CV</a>
 ## Education
 * Ph.D in Economics, Georgia State University
   * Expected Job Market 2026-2027
