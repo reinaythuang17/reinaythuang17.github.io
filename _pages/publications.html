@@ -44,11 +44,16 @@ author_profile: true
   margin:10px 0 24px;
   overflow:hidden;
   background:transparent;          /* 內容區透明 */
-}
 .paper-details > summary {
-  background:#f3e2b3;              /* 只有欄頭是暖黃方塊 */
+  background:#f3e2b3;
+  list-style:none;
+  cursor:pointer;
+  padding:10px 16px;
+  font-weight:600;
+  color:#5a4a2f;
+  user-select:none;
 }
-
+  
 .paper-details > summary::-webkit-details-marker { display:none; }
 .paper-details > summary::before { content:"▸ "; color:#a08a5a; }
 .paper-details[open] > summary::before { content:"▾ "; }
