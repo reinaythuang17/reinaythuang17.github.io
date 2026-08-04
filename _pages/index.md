@@ -12,10 +12,8 @@ classes: homepage-bg
 
 <div class="paper-visual">
 <p align="center">
-  <img src="/images/S__67870797.jpg" style="width:70%; height:auto;">
-</p>
-<p align="center">
-  <img src="/images/Health and Economics in Taiwan.png" style="width:70%; height:auto;">
+  <img src="/images/S__67870797.jpg" style="width:90%; height:auto;">
+  <img src="/images/Health and Economics in Taiwan.png" style="width:90%; height:auto;">
 </p>
 
   </div>
