@@ -46,6 +46,5 @@ classes: homepage-bg
       One of my favorite quotes from <em>The Little Prince</em> is, <em>&ldquo;It is the time you have wasted for your rose that makes your rose so important.&rdquo;</em> It reminds me of the value of focus, patience, and commitment&mdash;both in research and in life. Outside of research, I love traveling and finding joy in the little details of everyday life. These experiences often inspire new perspectives in my work and keep me grounded and curious.
     </p>
     <p>
-      Here is my <a href="/files/CV_Yu-Ting_July2026_pub.pdf" target="_blank">CV</a>
-      Feel free to reach out to me at <a href="mailto:yhuang63@gsu.edu">yhuang63@gsu.edu</a>
+     <a href="/files/CV_Yu-Ting_July2026_pub.pdf" target="_blank">CV</a> &emsp; | &emsp; <a href="mailto:yhuang63@gsu.edu">yhuang63@gsu.edu</a> &emsp; | &emsp; <a href="https://www.linkedin.com/in/yutinghuangreina/" target="_blank">Linkedin</a>
     </p>
