@@ -11,7 +11,7 @@ author_profile: true
 
 <div style="line-height: 1.2; margin-bottom: 1.5em;">
   <p style="margin-bottom: 0.2em;">
-     <span style="font-size:24px; font-weight:700;">   Bytes and Births: The Effect of Broadband Internet on Infant Health </span>
+     <span style="font-size:22px; font-weight:700;">   Bytes and Births: The Effect of Broadband Internet on Infant Health </span>
   </p>
     <p style="margin-top: 0;">
       <i>
@@ -34,7 +34,7 @@ author_profile: true
 
 <div style="line-height: 1.2; margin-bottom: 1.5em;">
   <p style="margin-bottom: 0.2em;">
-     <span style="font-size:24px; font-weight:700;">  The Long Shadow of Typhoons: Prenatal Exposure and Adult Mental Health </span>
+     <span style="font-size:22px; font-weight:700;">  The Long Shadow of Typhoons: Prenatal Exposure and Adult Mental Health </span>
   </p>
     <p style="margin-top: 0; margin-bottom: 0.2em;">
       (with Elaine M. Liu, Jin-Tan Liu, and Tzu-Yin Hazel Tseng)  Draft available upon request
@@ -60,7 +60,7 @@ author_profile: true
 
 <div style="line-height: 1.2; margin-bottom: 1.5em;">
   <p style="margin-bottom: 0.2em;">
-     <span style="font-size:24px; font-weight:700;">  Public Payment Mandates and Provider Supply: Evidence from Certified Nurse-Midwives</span>
+     <span style="font-size:22px; font-weight:700;">  Public Payment Mandates and Provider Supply: Evidence from Certified Nurse-Midwives</span>
   </p>
     <p style="margin-top: 0; margin-bottom: 0.2em;">
       (with
@@ -97,37 +97,94 @@ author_profile: true
 </div>  
 
 
-<div style="line-height: 1.2; margin-bottom: 1.5em;">
-  <p style="margin-bottom: 0.2em;">
-    <span style="font-size:24px; font-weight:700;">Full Day Kindergarten Mandates and Child Maltreatment</span>
+
+
+
+<style>
+/* 論文標題與狀態 */
+.paper-title { font-size:22px; font-weight:700; }
+.paper-authors { margin-top:0; }
+.badge {
+  display:inline-block; font-weight:600; font-size:13px;
+  padding:3px 10px; border-radius:5px;
+  background:#e8f0fe; color:#1a56b3;
+}
+
+/* 可收合的 abstract */
+.paper-details {
+  border:1px solid #e0e0e0;
+  border-radius:8px;
+  margin-top:12px;
+  overflow:hidden;
+}
+.paper-details > summary {
+  cursor:pointer;
+  padding:10px 14px;
+  font-weight:600;
+  background:#f7f7f7;
+  list-style:none;              /* 隱藏預設三角形 */
+  user-select:none;
+}
+.paper-details > summary::-webkit-details-marker { display:none; }
+.paper-details > summary::before {
+  content:"▸ ";                 /* 收合時的箭頭 */
+  color:#888;
+}
+.paper-details[open] > summary::before {
+  content:"▾ ";                 /* 展開時的箭頭 */
+}
+.paper-details .paper-visual {
+  display:flex;
+  gap:20px;
+  align-items:flex-start;
+  padding:14px;
+  flex-wrap:wrap;
+}
+.paper-details .paper-visual img {
+  width:42%; min-width:220px; height:auto; border-radius:6px;
+}
+.paper-details .paper-text { flex:1; min-width:260px; }
+</style>
+
+
+<div style="line-height:1.2; margin-bottom:0.5em;">
+  <p style="margin-bottom:0.2em;">
+    <span class="paper-title">Full Day Kindergarten Mandates and Child Maltreatment</span>
   </p>
-    <p style="margin-top: 0;">
-      (with
-      <a href="https://www.bogyungkim.com/" target="_blank" style="color: #3EB489;">
-       Bogyung Kim
-      </a>
-      ) Draft available upon request
-    </p>
-</div> 
-  
-<div class="paper-visual">
+  <p class="paper-authors">
+    (with
+    <a href="https://www.bogyungkim.com/" target="_blank" style="color:#3EB489;">Bogyung Kim</a>)
+    Draft available upon request
+  </p>
+  <span class="badge">Draft available upon request</span>
+</div>
 
-  <img src="/images/kd.png" alt="Medicaid mandate map">
-
-  <div class="paper-text">
-    <p>
-      This study examines the effect of state-mandated full-day kindergarten (FDK) expansion on child maltreatment using National Data Archive on Child Abuse and Neglect (NCANDS) child-level data, State Inpatient Databases (SID) hospital discharge data, and National Vital Statistics System (NVSS) mortality records. Leveraging the staggered rollout of FDK adoption across states with advanced difference-in-differences methods, we find that FDK policies lead to an increase of 3.5 physical abuse reports per 1,000 children, approximately 36\% relative to the baseline mean. The absence of an effect on the share of substantiated physical abuse and fatalities suggests that FDK primarily improves the detection of maltreatment rather than increasing its underlying incidence. Supporting this interpretation, educator-filed physical abuse reports rise by approximately 30\%, reflecting enhanced detection capacity among teachers and school staff, and potentially replacing reports from other professions. Furthermore, the observed increases in reports from parents and neighbors suggest that FDK may foster stronger community awareness and social support networks. Overall, this research provides new evidence on the broader benefits of early childhood education, particularly its role in strengthening child safety environments. 
-      [2026 June Updated]
-    </p>
+<details class="paper-details">
+  <summary>Abstract</summary>
+  <div class="paper-visual">
+    <img src="/images/kd.png" alt="Full-day kindergarten and maltreatment">
+    <div class="paper-text">
+      <p>
+        This study examines the effect of state-mandated full-day kindergarten (FDK) expansion on child maltreatment using National Data Archive on Child Abuse and Neglect (NCANDS) child-level data, State Inpatient Databases (SID) hospital discharge data, and National Vital Statistics System (NVSS) mortality records. Leveraging the staggered rollout of FDK adoption across states with advanced difference-in-differences methods, we find that FDK policies lead to an increase of 3.5 physical abuse reports per 1,000 children, approximately 36% relative to the baseline mean. The absence of an effect on the share of substantiated physical abuse and fatalities suggests that FDK primarily improves the detection of maltreatment rather than increasing its underlying incidence. Supporting this interpretation, educator-filed physical abuse reports rise by approximately 30%, reflecting enhanced detection capacity among teachers and school staff, and potentially replacing reports from other professions. Furthermore, the observed increases in reports from parents and neighbors suggest that FDK may foster stronger community awareness and social support networks. Overall, this research provides new evidence on the broader benefits of early childhood education, particularly its role in strengthening child safety environments.
+        [2026 June Updated]
+      </p>
+    </div>
   </div>
-</div>  
+</details>
+
+
+
+
+
+
+
   
 <h2 style="border-bottom: 2px solid #ccc; padding-bottom: 4px;">
   Work in Progress
 </h2>
 
 <div style="line-height: 1.2; margin-bottom: 1.5em;">
-  <p style="margin-bottom: 0.2em;"><strong>Universal Pre-Kindergarten, Childlessness, and Fertility</strong></p>
+  <p style="margin-bottom: 0.2em;"> <span style="font-size:22px; font-weight:700;">Universal Pre-Kindergarten, Childlessness, and Fertility</span></p>
   <p style="margin-top: 0;">
     <a href="https://www.bogyungkim.com/" target="_blank" style="color: #3EB489;">
       with Bogyung Kim
