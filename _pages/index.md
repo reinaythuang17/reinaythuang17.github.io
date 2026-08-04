@@ -24,7 +24,7 @@ classes: homepage-bg
   height: auto;
   border-radius: 8px;
 }
-@media (min-width: 700px) {   /* 螢幕 ≥700px 才左右排 */
+@media (min-width: 400px) {   /* 螢幕 ≥700px 才左右排 */
   .intro-wrap { flex-direction: row; }
   .intro-images { width: 38%; flex-shrink: 0; }
   .intro-text  { width: 62%; }
@@ -35,8 +35,8 @@ classes: homepage-bg
 
 <div class="intro-wrap">
   <div class="intro-images">
-    <img src="/images/S__67870797.jpg">
-    <img src="/images/Health and Economics in Taiwan.png">
+  <img src="/images/S__67870797.jpg" style="width:80%; height:auto;">
+  <img src="/images/Health and Economics in Taiwan.png" style="width:98%; height:auto;">
   </div>
   <div class="intro-text">
     <p>
