@@ -34,26 +34,21 @@ author_profile: true
 }
 .badge-jmp    { background:#f6e0b8; color:#8a5a12; border:1px solid #e3c58a; }
 .badge-accept { background:#dcebd6; color:#3f6b32; border:1px solid #bcd6b0; }
-.badge-rr     { background:#eadcc4; color:#7a5a2a; border:1px solid #d4bd94; }
+.badge-rr     { background:#d5a6bd; color:#a64d79; border:1px solid #c27ba0; }
 .badge-draft  { background:#efe4cf; color:#6b5636; border:1px solid #dbc9a6; }
 
 /* ===== 可收合 abstract ===== */
 .paper-details {
-  border:1px solid #e0d3ad;
+  border:1px solid #d8c48a;
   border-radius:8px;
   margin:10px 0 24px;
   overflow:hidden;
-  background:transparent;
+  background:transparent;          /* 內容區透明 */
 }
 .paper-details > summary {
-  cursor:pointer;
-  padding:10px 16px;
-  font-weight:600;
-  color:#5a4a2f;
-  background:#f7f7f7;
-  list-style:none;
-  user-select:none;
+  background:#f3e2b3;              /* 只有欄頭是暖黃方塊 */
 }
+
 .paper-details > summary::-webkit-details-marker { display:none; }
 .paper-details > summary::before { content:"▸ "; color:#a08a5a; }
 .paper-details[open] > summary::before { content:"▾ "; }
