@@ -35,8 +35,8 @@ classes: homepage-bg
 
 <div class="intro-wrap">
   <div class="intro-images">
-  <img src="/images/S__67870797.jpg" style="width:90%; height:auto;">
-  <img src="/images/Health and Economics in Taiwan.png" style="width:90%; height:auto;">
+  <img src="/images/S__67870797.jpg" style="width:100%; height:auto;">
+  <img src="/images/Health and Economics in Taiwan.png" style="width:100%; height:auto;">
   </div>
   <div class="intro-text">
     <p>
